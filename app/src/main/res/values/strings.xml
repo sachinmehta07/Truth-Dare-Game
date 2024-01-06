@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Truth or Dare</string>
+    <string name="spin">Spin Bottle</string>
+    <string name="truth">Truth</string>
+    <string name="dare">Dare</string>
+    <string name="action_add">Add</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="get_pos">Get your position</string>
+    <string name="add_truth">Add Truth</string>
+    <string name="add_dare">Add Dare</string>
+    <string name="app_logo">App logo</string>
+    <string name="start">Start</string>
+    <string name="todo">TODO</string>
+    <string name="Options">Options</string>
+    <string name="option">Option</string>
+    <string name="game_begins">Game Begins...</string>
+    <string name="select_truth">Category Truth</string>
+    <string name="select_dare">Category Dare</string>
+    <string name="select_any_one_option">Select Any one option</string>
+    <string name="customize_your_experience_while_playing">Customize your experience\nwhile playing! &#128522;</string>
+    <string name="spin_bottle_now">Spin bottle Now!</string>
+    <string name="enter_text">Write here...</string>
+</resources>

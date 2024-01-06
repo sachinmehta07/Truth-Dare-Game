@@ -1,0 +1,26 @@
+<set xmlns:android="http://schemas.android.com/apk/res/android"
+    android:fillAfter="true">
+
+    <!-- Zoom In Animation -->
+    <scale
+        android:duration="2000"
+        android:fromXScale="0.1"
+        android:fromYScale="0.1"
+        android:toXScale="1.5"
+        android:toYScale="1.5"
+        android:pivotX="50%"
+        android:pivotY="50%" />
+
+    <!-- Pause for a moment (you can adjust duration as needed) -->
+    <set android:duration="1000" />
+
+    <!-- Zoom Out Animation -->
+    <scale
+        android:duration="2000"
+        android:fromXScale="1.0"
+        android:fromYScale="1.0"
+        android:toXScale="0.5"
+        android:toYScale="0.5"
+        android:pivotX="50%"
+        android:pivotY="50%" />
+</set>

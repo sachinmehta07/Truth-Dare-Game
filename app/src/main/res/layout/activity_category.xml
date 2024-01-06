@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/c_FFFFFF"
+    android:padding="16dp">
+
+    <ImageView
+        android:id="@+id/ivBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/pageTitle"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="12dp"
+        android:contentDescription="TODO"
+        android:src="@drawable/back_ic" />
+
+    <TextView
+        android:id="@+id/pageTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:fontFamily="@font/poppins_bold"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textSize="18sp" />
+    <!-- Category Card: CATEGORY_FUNNY -->
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardFunny"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pageTitle"
+        android:layout_marginTop="120dp"
+        android:layout_marginBottom="16dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp">
+
+        <!-- Your Category Layout Here (e.g., TextView, ImageView) -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_option"
+            android:drawableStart="@drawable/funny"
+            android:fontFamily="@font/poppins_bold"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Funny"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+    </androidx.cardview.widget.CardView>
+
+    <!-- Category Card: CATEGORY_EMBARRASSING -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardEmbarrassing"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cardFunny"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp">
+
+        <!-- Your Category Layout Here (e.g., TextView, ImageView) -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_option"
+            android:drawableStart="@drawable/embrassing"
+            android:fontFamily="@font/poppins_bold"
+            android:gravity="center"
+            android:padding="10dp"
+
+            android:text="Embarrassing"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+    </androidx.cardview.widget.CardView>
+
+    <!-- Category Card: CATEGORY_CHALLENGING -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardChallenging"
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cardEmbarrassing"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="4dp">
+
+        <!-- Your Category Layout Here (e.g., TextView, ImageView) -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_option"
+            android:drawableStart="@drawable/challenging"
+
+            android:fontFamily="@font/poppins_bold"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="Challenging"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+    </androidx.cardview.widget.CardView>
+
+    <!-- Category Card: CATEGORY_RANDOM -->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardRandom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cardChallenging"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        app:cardCornerRadius="8dp"
+
+        app:cardElevation="4dp">
+
+        <!-- Your Category Layout Here (e.g., TextView, ImageView) -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_option"
+            android:drawableStart="@drawable/random"
+            android:fontFamily="@font/poppins_bold"
+            android:gravity="center"
+            android:padding="10dp"
+
+            android:text="Random"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
