@@ -21,9 +21,8 @@ Ever felt bored during college or on the go? That's exactly why we created the T
 ## **Video-Demo**
 
 ## **Screenshots**
-### **Light**
-<img width="200" height="433" src="![Screenshot_2024-01-07-15-45-16-71_ac949ca0963b36c736fe90ac27c8056f](https://github.com/sachinmehta07/Truth-Dare-Game/assets/85401634/d406bddf-8106-4a64-b627-d6a36bb6fbd4)"> <img width="200" height="433" src=""> <img width="200" height="433" src="./assets/images/ss3.jpg"> <img width="200" height="433" src=""> 
-<img width="200" height="433" src="./assets/images/ss5.jpg"> 
+
+![Screenshot_2024-01-07-15-45-16-71_ac949ca0963b36c736fe90ac27c8056f](https://github.com/sachinmehta07/Truth-Dare-Game/assets/85401634/d406bddf-8106-4a64-b627-d6a36bb6fbd4)
 
 ## **Functionality & Concepts used**
 
