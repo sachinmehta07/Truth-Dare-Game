@@ -19,7 +19,7 @@ An Android App for Spontaneous Fun and Building Friendships
 Ever felt bored during college or on the go? That's exactly why we created the Truth And Dare Game app – to turn dull moments into laughter-packed adventures! It's not just a game; it's your secret weapon for fun times with friends. Dive into hilarious truths and dares that'll have you sharing stories, revealing quirks, and making memories that stick. Perfect for rainy dorm days, road trips, beach hangs, or whenever you need a good laugh. It's time to add some excitement to the ordinary – let the Truth And Dare Game do the trick
 
 ## **Video-Demo**
-
+![](src/./assets/images/gif-roate.gif)
 
 ## **Screenshots**
 
