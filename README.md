@@ -21,9 +21,7 @@ Ever felt bored during college or on the go? That's exactly why we created the T
 ## **Video-Demo**
 
 ![](src/./assets/images/demo-app.mp4)
-<video width="200" height="433" controls>
-  <source src="./assets/images/demo-app.mp4" type="video/mp4">
-</video>
+
 ## **Screenshots**
 
 <img width="200" height="433" src="./assets/images/ss1.jpg"> <img width="200" height="433" src="./assets/images/ss2.jpg"> ![Animated GIF](./assets/images/gif-roate.mp4") <img width="200" height="433" src="./assets/images/ss4.jpg"> <img width="200" height="433" src="./assets/images/ss5.jpg"> <img width="200" height="433" src="./assets/images/ss6.jpg"> 
