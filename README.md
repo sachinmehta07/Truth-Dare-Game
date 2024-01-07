@@ -1,46 +1,52 @@
-```markdown
-# Truth And Dare Game
+<div align="center" style="text-align:center">
 
-Dive into spontaneous fun with the Truth And Dare Game app! Spin the virtual bottle with captivating animations, unleashing creativity through hilarious truths and daring challenges. Customize the game with your own twists, challenge friends, and create lasting memories. Get ready for laughter, surprises, and endless entertainment in this lighthearted app!
+<img src="./app/src/main/res/drawable/app_icon.png" width="100px"/> <br>
 
-## Screen-shot  & Video:
+### NoteDroid
 
-
-## Functionality & Concepts Used:
-
-- **Splash Screen and Handler:**
-  - Implemented a splash screen with a handler to display an attractive launch screen when the app is launched.
-
-- **Main Screen:**
-  - Three main buttons: 
-    - **Start:** Takes the user to the play screen where they can rotate the bottle and play the game.
-    - **Add Truth and Add Dare:** Customize your experience by adding your own truth and dare questions. Takes the user to the category screen where they can choose from four categories: Funny, Challenging, Random, Embarrassing.
-
-- **Category Screen:**
-  - Allows the user to select a category (Funny, Challenging, Random, Embarrassing) for truth or dare.
-  - Users can add their own truth or dare questions in a customized way.
-
-- **Play Screen:**
-  - After rotating the bottle, the user can choose either truth or dare.
-  - Allows the user to select a category before playing.
-
-## Technologies and Concepts Used:
-
-- **SharedPreferences:**
-  - Utilized SharedPreferences to store user data, allowing users to access their data whenever the app is launched.
-
-- **ArrayList:**
-  - Implemented ArrayList to manage and store data related to truth and dare questions.
-
-- **Dialog:**
-  - Used a dialog to add truth or dare questions in a customized way.
-
-- **Rotation Class:**
-  - Implemented rotation class in Android to rotate objects for an interactive user experience.
-
-## Application Link & Future Scope:
+<p> A simple android app written in Kotlin to take notes and be productive. This app was built under Android Study Jams 2021 for students to learn and contribute to Android Development <br></p>
 
 
 
-```
+---
 
+</div>
+
+# NoteDroid
+An Android App for all your Notes
+
+Reserved repository for Android Study Jams 2021 participants.
+
+## **Problem Statement**
+
+Amidst this COVID times, we all have somewhere been lazy and been lacking on productivity. Taking notes of what you do or what you are going to do is a very effective way of being productive.
+
+## **Solution**
+
+Using <b>MVVM architecture, ViewModel, Room DB, LiveData, Coroutines</b> and many of the <b>Jetpack Libraries</b>, we have built this app that helps you take your notes and also helps you marks notes that are important for you based on your priority.
+
+## **Screenshots**
+### **Light**
+<img width="200" height="433" src="./assets/images/ss1.jpg"> <img width="200" height="433" src="./assets/images/ss2.jpg"> <img width="200" height="433" src="./assets/images/ss3.jpg"> <img width="200" height="433" src="./assets/images/ss4.jpg">
+<img width="200" height="433" src="./assets/images/ss5.jpg"> 
+### **Dark**
+<img width="200" height="433" src="./assets/images/ss6.jpg"> <img width="200" height="433" src="./assets/images/ss7.jpg"> <img width="200" height="433" src="./assets/images/ss8.jpg"> 
+
+## **Functionality & Concepts used**
+
+The App has a very simple and interactive design which helps the students to easily take notes and have them prioritised according to their needs.
+Following are few android concepts used to achieve the functionalities in app :
+
+
+- `Constraint Layout` : All of the activities in the app uses a flexible <b>Constraint Layout</b>, which is easy to handle for different screen sizes.
+- `Recyclerview` :  To present the list of different notes and important notes we used the efficient <b>Recyclerview</b>. 
+- `Room Persistence Library` : To store the Notes that you enter and to make sure your data is not lost after you leave the app, we are using the <b>Room Persistence Library</b> to have them stored in a local database.
+- `LiveData` : We are also using <b>LiveData</b> to update & observe any changes to our notes list and updating it to local databases using Room.
+- `Navigation Component` : We are also using the <b>Navigation component</b> to switch pages/destination within the app.
+
+## **Application Link & Future Scope**
+
+The app is currently in the Alpha testing phase within the SNU campus with a limited no. of users. You can access the app by cloning the repo and building it on Android Studio.
+Also we welcome, anyone who has an idea or wants to contribute to the project.
+
+### Thank You!! :)
