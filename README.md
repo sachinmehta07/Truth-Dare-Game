@@ -23,7 +23,7 @@ Ever felt bored during college or on the go? That's exactly why we created the T
 
 ## **Screenshots**
 
-<img width="200" height="433" src="./assets/images/ss1.jpg"> <img width="200" height="433" src="./assets/images/ss2.jpg">  ![](assets/images/gif-roate.gif)    <img width="200" height="433" src="./assets/images/ss4.jpg"> <img width="200" height="433" src="./assets/images/ss5.jpg"> <img width="200" height="433" src="./assets/images/ss6.jpg"> 
+<img width="200" height="433" src="./assets/images/ss1.jpg"> <img width="200" height="433" src="./assets/images/ss2.jpg">  <img width="200" height="433" src="./assets/images/ss3.jpg">  <img width="200" height="433" src="./assets/images/ss4.jpg"> <img width="200" height="433" src="./assets/images/ss5.jpg"> <img width="200" height="433" src="./assets/images/ss6.jpg"> 
 <img width="200" height="433" src="./assets/images/ss7.jpg">  <img width="200" height="433" src="./assets/images/ss8.jpg"> 
  <img width="200" height="433" src="./assets/images/ss9.jpg"> <img width="200" height="433" src="./assets/images/ss11.jpg"> <img width="200" height="433" src="./assets/images/ss10.jpg">
 
