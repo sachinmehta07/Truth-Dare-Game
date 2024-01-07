@@ -24,7 +24,7 @@ Ever felt bored during college or on the go? That's exactly why we created the T
 
 ## **Screenshots**
 
-<img width="200" height="433" src="./assets/images/ss1.jpg"> <img width="200" height="433" src="./assets/images/ss2.jpg"> ![Animated GIF](./assets/images/gif-roate.mp4") <img width="200" height="433" src="./assets/images/ss4.jpg"> <img width="200" height="433" src="./assets/images/ss5.jpg"> <img width="200" height="433" src="./assets/images/ss6.jpg"> 
+<img width="200" height="433" src="./assets/images/ss1.jpg"> <img width="200" height="433" src="./assets/images/ss2.jpg"> ![gif-roate](https://github.com/sachinmehta07/Truth-Dare-Game/assets/85401634/8a24f185-1ed8-42cc-9d89-83281ca1ca70) <img width="200" height="433" src="./assets/images/ss4.jpg"> <img width="200" height="433" src="./assets/images/ss5.jpg"> <img width="200" height="433" src="./assets/images/ss6.jpg"> 
 <img width="200" height="433" src="./assets/images/ss7.jpg">  <img width="200" height="433" src="./assets/images/ss8.jpg"> 
  <img width="200" height="433" src="./assets/images/ss9.jpg"> <img width="200" height="433" src="./assets/images/ss11.jpg"> <img width="200" height="433" src="./assets/images/ss10.jpg">
 
