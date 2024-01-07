@@ -50,7 +50,7 @@ The Truth And Dare Game app boasts a straightforward and engaging design, making
 - `Multiplayer Mode`: Introduce a multiplayer mode where users can connect with friends or random players for a more interactive and social gaming experience.
 
 ## **Application Link**
-[app-debug.apk](./assets/debug/truth-dare-game.apk)
+[app-debug.apk](https://drive.google.com/file/d/1cmh-SeUoDbleAptkl04x2cx0y6I4pRp6/view?usp=drive_link)
 
 The app is currently in the Alpha testing phase limited no. of users. You can access the app by cloning the repo and building it on Android Studio.
 Also we welcome, anyone who has an idea or wants to contribute to the project.
