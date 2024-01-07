@@ -19,12 +19,11 @@ An Android App for Spontaneous Fun and Building Friendships
 Ever felt bored during college or on the go? That's exactly why we created the Truth And Dare Game app – to turn dull moments into laughter-packed adventures! It's not just a game; it's your secret weapon for fun times with friends. Dive into hilarious truths and dares that'll have you sharing stories, revealing quirks, and making memories that stick. Perfect for rainy dorm days, road trips, beach hangs, or whenever you need a good laugh. It's time to add some excitement to the ordinary – let the Truth And Dare Game do the trick
 
 ## **Video-Demo**
-![](assets/images/gif-roate.gif)  
-![](assets/images/sample-flow-app.mp4)  
+![](assets/images/gif-roate.gif)   
 
 ## **Screenshots**
 
-<img width="200" height="433" src="./assets/images/ss1.jpg"> <img width="200" height="433" src="./assets/images/ss2.jpg">  <img width="200" height="433" src="./assets/images/ss3.jpg">   <img width="200" height="433" src="./assets/images/ss4.jpg"> <img width="200" height="433" src="./assets/images/ss5.jpg"> <img width="200" height="433" src="./assets/images/ss6.jpg"> 
+<img width="200" height="433" src="./assets/images/ss1.jpg"> <img width="200" height="433" src="./assets/images/ss2.jpg">  ![](assets/images/gif-roate.gif)    <img width="200" height="433" src="./assets/images/ss4.jpg"> <img width="200" height="433" src="./assets/images/ss5.jpg"> <img width="200" height="433" src="./assets/images/ss6.jpg"> 
 <img width="200" height="433" src="./assets/images/ss7.jpg">  <img width="200" height="433" src="./assets/images/ss8.jpg"> 
  <img width="200" height="433" src="./assets/images/ss9.jpg"> <img width="200" height="433" src="./assets/images/ss11.jpg"> <img width="200" height="433" src="./assets/images/ss10.jpg">
 
