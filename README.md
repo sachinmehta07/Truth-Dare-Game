@@ -7,43 +7,33 @@
 <p> Dive into spontaneous fun with the Truth And Dare Game app! Spin the virtual bottle with captivating animations, unleashing creativity through hilarious truths and daring challenges. Customize the game with your own twists, challenge friends, and create lasting memories. Get ready for laughter, surprises, and endless entertainment in this lighthearted app!
 <br></p>
 
-
-
 ---
 
 </div>
 
 # Truth And Dare Game
-An Android App for all your Notes
+An Android App for Spontaneous Fun and Building Friendships
 
-Reserved repository for Android Study Jams 2021 participants.
+## **Why we created this App**
 
-## **Problem Statement**
-
-Amidst this COVID times, we all have somewhere been lazy and been lacking on productivity. Taking notes of what you do or what you are going to do is a very effective way of being productive.
-
-## **Solution**
-
-Using <b>MVVM architecture, ViewModel, Room DB, LiveData, Coroutines</b> and many of the <b>Jetpack Libraries</b>, we have built this app that helps you take your notes and also helps you marks notes that are important for you based on your priority.
+Ever felt bored during college or on the go? That's exactly why we created the Truth And Dare Game app – to turn dull moments into laughter-packed adventures! It's not just a game; it's your secret weapon for fun times with friends. Dive into hilarious truths and dares that'll have you sharing stories, revealing quirks, and making memories that stick. Perfect for rainy dorm days, road trips, beach hangs, or whenever you need a good laugh. It's time to add some excitement to the ordinary – let the Truth And Dare Game do the trick
 
 ## **Screenshots**
 ### **Light**
-<img width="200" height="433" src="./assets/images/ss1.jpg"> <img width="200" height="433" src="./assets/images/ss2.jpg"> <img width="200" height="433" src="./assets/images/ss3.jpg"> <img width="200" height="433" src="./assets/images/ss4.jpg">
+<img width="200" height="433" src="./assets/images/ss1.jpg"> <img width="200" height="433" src="./assets/images/ss2.jpg"> <img width="200" height="433" src="./assets/images/ss3.jpg"> <img width="200" height="433" src="./assets/images/ss4.jpg"> 
 <img width="200" height="433" src="./assets/images/ss5.jpg"> 
-### **Dark**
-<img width="200" height="433" src="./assets/images/ss6.jpg"> <img width="200" height="433" src="./assets/images/ss7.jpg"> <img width="200" height="433" src="./assets/images/ss8.jpg"> 
 
 ## **Functionality & Concepts used**
 
-The App has a very simple and interactive design which helps the students to easily take notes and have them prioritised according to their needs.
-Following are few android concepts used to achieve the functionalities in app :
-
+The Truth And Dare Game app boasts a straightforward and engaging design, making it easy for users to add, explore, and enjoy customized truth and dare challenges. The app incorporates various Android concepts to deliver a seamless user experience:
 
 - `Constraint Layout` : All of the activities in the app uses a flexible <b>Constraint Layout</b>, which is easy to handle for different screen sizes.
 - `Recyclerview` :  To present the list of different notes and important notes we used the efficient <b>Recyclerview</b>. 
-- `Room Persistence Library` : To store the Notes that you enter and to make sure your data is not lost after you leave the app, we are using the <b>Room Persistence Library</b> to have them stored in a local database.
-- `LiveData` : We are also using <b>LiveData</b> to update & observe any changes to our notes list and updating it to local databases using Room.
+- `Shared-Preferences:` : Utilized SharedPreferences to store user data, enabling users to access their added truth or dare challenges whenever the app is launched.
+- `ArrayList` : Implemented ArrayList to manage and store data related to truth and dare challenges, facilitating smooth organization and retrieval.
 - `Navigation Component` : We are also using the <b>Navigation component</b> to switch pages/destination within the app.
+- `Dialog:` : A custom dialog is used to add truth or dare challenges, providing users with a personalized and user-friendly experience.
+- `Rotation class:`  The app incorporates a rotation class in Android to enable interactive object rotation, enhancing the overall user interface.
 
 ## **Application Link & Future Scope**
 
