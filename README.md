@@ -22,7 +22,7 @@ Ever felt bored during college or on the go? That's exactly why we created the T
 
 ## **Screenshots**
 
-<img width="200" height="433" src="./assets/image/ss1.jpg"> <img width="200" height="433" src="./assets/images/ss2.jpg"> <img width="200" height="433" src="./assets/images/ss3.jpg"> <img width="200" height="433" src="./assets/images/ss4.jpg">
+<img width="200" height="433" src="./assets/images/ss1.jpg"> <img width="200" height="433" src="./assets/images/ss2.jpg"> <img width="200" height="433" src="./assets/images/ss3.jpg"> <img width="200" height="433" src="./assets/images/ss4.jpg">
 <img width="200" height="433" src="./assets/images/ss5.jpg"> 
 
 ## **Functionality & Concepts used**
