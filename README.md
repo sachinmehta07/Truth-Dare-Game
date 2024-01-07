@@ -2,9 +2,10 @@
 
 <img src="./app/src/main/res/drawable/app_icon.png" width="100px"/> <br>
 
-### NoteDroid
+### Truth And Dare Game
 
-<p> A simple android app written in Kotlin to take notes and be productive. This app was built under Android Study Jams 2021 for students to learn and contribute to Android Development <br></p>
+<p> Dive into spontaneous fun with the Truth And Dare Game app! Spin the virtual bottle with captivating animations, unleashing creativity through hilarious truths and daring challenges. Customize the game with your own twists, challenge friends, and create lasting memories. Get ready for laughter, surprises, and endless entertainment in this lighthearted app!
+<br></p>
 
 
 
@@ -12,7 +13,7 @@
 
 </div>
 
-# NoteDroid
+# Truth And Dare Game
 An Android App for all your Notes
 
 Reserved repository for Android Study Jams 2021 participants.
