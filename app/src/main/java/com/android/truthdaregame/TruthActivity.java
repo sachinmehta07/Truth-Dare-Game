@@ -13,6 +13,7 @@ import android.view.View;
 import android.view.Window;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -47,8 +48,10 @@ public class TruthActivity extends AppCompatActivity {
         sharedPreferences = getSharedPreferences("mySharedPreference", Context.MODE_PRIVATE);
         editor = sharedPreferences.edit();
 
-        toolbar = findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
+        TextView txtCat = findViewById(R.id.txCategoryName);
+        txtCat.setText(selectedCategory);
+//        toolbar = findViewById(R.id.toolbar);
+//        setSupportActionBar(toolbar);
 
         truthList = new ArrayList<>();
 
@@ -56,6 +59,20 @@ public class TruthActivity extends AppCompatActivity {
         populateDefaultData();
         if (sharedPreferences.contains("UserTruths"))
             populateUserData(sharedPreferences.getString("UserTruths", null));
+
+        findViewById(R.id.ivBack).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                onBackPressed();
+            }
+        });
+
+        findViewById(R.id.ivAdd).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                showDialog();
+            }
+        });
     }
 
 //    public void populateDefaultData() {
@@ -136,6 +153,8 @@ public class TruthActivity extends AppCompatActivity {
             }
         });
         dialog.show();
+
+
     }
 
 //    public void updateUserData(String string) {
@@ -184,18 +203,19 @@ public class TruthActivity extends AppCompatActivity {
         return super.onCreateOptionsMenu(menu);
     }
 
-    @SuppressLint("NonConstantResourceId")
-    @Override
-    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+//    @SuppressLint("NonConstantResourceId")
+//    @Override
+//    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+//
+//
+//        if (item.getItemId() == R.id.action_add) {
+//            showDialog();
+//            return true;
+//        }
+//        return super.onOptionsItemSelected(item);
+//    }
 
-
-        if (item.getItemId() == R.id.action_add) {
-            showDialog();
-            return true;
-        }
-        return super.onOptionsItemSelected(item);
-    }
-
+    @SuppressLint("MissingSuperCall")
     @Override
     public void onBackPressed() {
         finish();

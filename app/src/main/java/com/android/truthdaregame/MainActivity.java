@@ -30,33 +30,23 @@ public class MainActivity extends AppCompatActivity {
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
-
         binding.truthBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (isBottleSpin) {
-                    isAnyOptionSelected = true;
-                    Intent iNxt = new Intent(new Intent(getApplicationContext(), CategoryActivity.class));
-                    iNxt.putExtra("isFromTruth", "true");
-                    startActivity(iNxt);
-                } else {
-                    Toast.makeText(MainActivity.this, "Please spin bottle first", Toast.LENGTH_SHORT).show();
-                }
+                Intent iNxt = new Intent(new Intent(getApplicationContext(), CategoryActivity.class));
+                iNxt.putExtra("isFromTruth", "true");
+                isAnyOptionSelected = true;
+                startActivity(iNxt);
             }
         });
 
         binding.dareBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                if (isBottleSpin) {
-                    isAnyOptionSelected = true;
-                    Intent iNxt = new Intent(new Intent(getApplicationContext(), CategoryActivity.class));
-                    iNxt.putExtra("isFromDare", "true");
-                    startActivity(iNxt);
-                } else {
-                    Toast.makeText(MainActivity.this, "Please spin bottle first", Toast.LENGTH_SHORT).show();
-                }
-
+                isAnyOptionSelected = true;
+                Intent iNxt = new Intent(new Intent(getApplicationContext(), CategoryActivity.class));
+                iNxt.putExtra("isFromDare", "true");
+                startActivity(iNxt);
             }
         });
     }

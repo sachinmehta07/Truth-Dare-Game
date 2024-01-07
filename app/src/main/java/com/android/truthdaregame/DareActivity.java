@@ -14,6 +14,7 @@ import android.view.View;
 import android.view.Window;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import androidx.annotation.NonNull;
@@ -46,9 +47,8 @@ public class DareActivity extends AppCompatActivity {
         sharedPreferences = getSharedPreferences("mySharedPreference", Context.MODE_PRIVATE);
         editor = sharedPreferences.edit();
 
-        toolbar = findViewById(R.id.toolbar);
-        setSupportActionBar(toolbar);
-
+        TextView txtCat = findViewById(R.id.txCategoryName);
+        txtCat.setText(selectedCategory);
         truthList = new ArrayList<>();
 
         recyclerViewConfig();
@@ -56,6 +56,20 @@ public class DareActivity extends AppCompatActivity {
 
         if (sharedPreferences.contains("UserDares"))
             populateUserData(sharedPreferences.getString("UserDares", null));
+
+        findViewById(R.id.ivBack).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                onBackPressed();
+            }
+        });
+
+        findViewById(R.id.ivAdd).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                showDialog();
+            }
+        });
     }
 
 //    public void populateDefaultData() {
@@ -183,16 +197,16 @@ public class DareActivity extends AppCompatActivity {
         return super.onCreateOptionsMenu(menu);
     }
 
-    @Override
-    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
-
-
-        if (item.getItemId() == R.id.action_add) {//TODO: add
-            showDialog();
-            return true;
-        }
-        return super.onOptionsItemSelected(item);
-    }
+//    @Override
+//    public boolean onOptionsItemSelected(@NonNull MenuItem item) {
+//
+//
+//        if (item.getItemId() == R.id.action_add) {//TODO: add
+//            showDialog();
+//            return true;
+//        }
+//        return super.onOptionsItemSelected(item);
+//    }
 
     @SuppressLint("MissingSuperCall")
     @Override
